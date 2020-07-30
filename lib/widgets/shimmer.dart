@@ -7,15 +7,15 @@ class load_shimmer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Shimmer.fromColors(
-        highlightColor: Colors.grey.shade300,
-        baseColor: Colors.grey.shade200,
+        highlightColor: Colors.grey.shade700,
+        baseColor: Colors.grey.shade600,
         child: ListView.builder(
             itemCount: 5,
             itemBuilder: (_, index) {
               return Row(
                 children: [
                   Container(
-                    margin: EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+                    margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
                     decoration: BoxDecoration(
                       color: Colors.grey.shade300,
                       borderRadius: BorderRadius.circular(10),
